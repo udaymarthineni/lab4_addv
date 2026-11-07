@@ -1,0 +1,86 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2-3_Full64; Runtime version W-2024.09-SP2-3_Full64;  Nov  7 20:44 2026
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_W-2024.09-SP2-3, Linux x86_64/64bit, 06/23/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin traversing the scope (fifo_tb), layer (0).
+*Verdi* : End of traversing.
+MON: [65 ns] txn #0 op=WRITE data=0x00 wfull=0 almost_wfull=0 accepted=1 ts=65.000 ns
+MON: [75 ns] txn #1 op=WRITE data=0x01 wfull=0 almost_wfull=0 accepted=1 ts=75.000 ns
+MON: [85 ns] txn #2 op=WRITE data=0x02 wfull=0 almost_wfull=0 accepted=1 ts=85.000 ns
+MON: [95 ns] txn #3 op=WRITE data=0x03 wfull=0 almost_wfull=0 accepted=1 ts=95.000 ns
+MON: [115 ns] txn #4 op=WRITE data=0x04 wfull=0 almost_wfull=0 accepted=1 ts=115.000 ns
+MON: [135 ns] txn #5 op=WRITE data=0x05 wfull=0 almost_wfull=0 accepted=1 ts=135.000 ns
+MON: [145 ns] txn #6 op=WRITE data=0x06 wfull=0 almost_wfull=0 accepted=1 ts=145.000 ns
+MON: [155 ns] txn #7 op=WRITE data=0x07 wfull=0 almost_wfull=0 accepted=1 ts=155.000 ns
+MON: [165 ns] txn #8 op=WRITE data=0x08 wfull=0 almost_wfull=0 accepted=1 ts=165.000 ns
+MON: [175 ns] txn #9 op=WRITE data=0x09 wfull=0 almost_wfull=0 accepted=1 ts=175.000 ns
+MON: [185 ns] txn #10 op=WRITE data=0x0a wfull=0 almost_wfull=0 accepted=1 ts=185.000 ns
+the fifo is not almost full
+MON: [195 ns] txn #11 op=WRITE data=0x0b wfull=0 almost_wfull=0 accepted=1 ts=195.000 ns
+the fifo is almost full
+MON: [205 ns] txn #12 op=WRITE data=0x0c wfull=0 almost_wfull=1 accepted=1 ts=205.000 ns
+MON: [215 ns] txn #13 op=WRITE data=0x0d wfull=0 almost_wfull=0 accepted=1 ts=215.000 ns
+MON: [225 ns] txn #14 op=WRITE data=0x0e wfull=0 almost_wfull=0 accepted=1 ts=225.000 ns
+MON: [235 ns] txn #15 op=WRITE data=0x0f wfull=0 almost_wfull=0 accepted=1 ts=235.000 ns
+MON: [245 ns] txn #16 op=WRITE data=0x07 wfull=1 almost_wfull=0 accepted=0 ts=245.000 ns
+the fifo is full
+MON: [330 ns] txn #17 op= READ data=0x00 rempty=0 almost_rempty=0 accepted=1 ts=330.000 ns
+MON: [350 ns] txn #18 op= READ data=0x01 rempty=0 almost_rempty=0 accepted=1 ts=350.000 ns
+MON: [370 ns] txn #19 op= READ data=0x02 rempty=0 almost_rempty=0 accepted=1 ts=370.000 ns
+MON: [390 ns] txn #20 op= READ data=0x03 rempty=0 almost_rempty=0 accepted=1 ts=390.000 ns
+MON: [410 ns] txn #21 op= READ data=0x04 rempty=0 almost_rempty=0 accepted=1 ts=410.000 ns
+MON: [430 ns] txn #22 op= READ data=0x05 rempty=0 almost_rempty=0 accepted=1 ts=430.000 ns
+MON: [450 ns] txn #23 op= READ data=0x06 rempty=0 almost_rempty=0 accepted=1 ts=450.000 ns
+MON: [470 ns] txn #24 op= READ data=0x07 rempty=0 almost_rempty=0 accepted=1 ts=470.000 ns
+MON: [490 ns] txn #25 op= READ data=0x08 rempty=0 almost_rempty=0 accepted=1 ts=490.000 ns
+MON: [510 ns] txn #26 op= READ data=0x09 rempty=0 almost_rempty=0 accepted=1 ts=510.000 ns
+MON: [530 ns] txn #27 op= READ data=0x0a rempty=0 almost_rempty=0 accepted=1 ts=530.000 ns
+MON: [550 ns] txn #28 op= READ data=0x0b rempty=0 almost_rempty=0 accepted=1 ts=550.000 ns
+MON: [570 ns] txn #29 op= READ data=0x0c rempty=0 almost_rempty=1 accepted=1 ts=570.000 ns
+MON: [590 ns] txn #30 op= READ data=0x0d rempty=0 almost_rempty=0 accepted=1 ts=590.000 ns
+MON: [610 ns] txn #31 op= READ data=0x0e rempty=0 almost_rempty=0 accepted=1 ts=610.000 ns
+MON: [630 ns] txn #32 op= READ data=0x0f rempty=0 almost_rempty=0 accepted=1 ts=630.000 ns
+the fifo is empty
+the fifo is empty
+MON: [685 ns] txn #33 op=WRITE data=0x0d wfull=0 almost_wfull=0 accepted=1 ts=685.000 ns
+MON: [695 ns] txn #34 op=WRITE data=0x0e wfull=0 almost_wfull=0 accepted=1 ts=695.000 ns
+MON: [705 ns] txn #35 op=WRITE data=0x0f wfull=0 almost_wfull=0 accepted=1 ts=705.000 ns
+MON: [715 ns] txn #36 op=WRITE data=0x07 wfull=0 almost_wfull=0 accepted=1 ts=715.000 ns
+MON: [725 ns] txn #37 op=WRITE data=0x04 wfull=0 almost_wfull=0 accepted=1 ts=725.000 ns
+MON: [730 ns] txn #38 op= READ data=0x0d rempty=1 almost_rempty=0 accepted=0 ts=730.000 ns
+MON: [735 ns] txn #39 op=WRITE data=0x04 wfull=0 almost_wfull=0 accepted=1 ts=735.000 ns
+MON: [745 ns] txn #40 op=WRITE data=0x04 wfull=0 almost_wfull=0 accepted=1 ts=745.000 ns
+MON: [750 ns] txn #41 op= READ data=0x0d rempty=0 almost_rempty=0 accepted=1 ts=750.000 ns
+MON: [755 ns] txn #42 op=WRITE data=0x05 wfull=0 almost_wfull=0 accepted=1 ts=755.000 ns
+MON: [765 ns] txn #43 op=WRITE data=0x05 wfull=0 almost_wfull=0 accepted=1 ts=765.000 ns
+MON: [770 ns] txn #44 op= READ data=0x0e rempty=0 almost_rempty=0 accepted=1 ts=770.000 ns
+MON: [775 ns] txn #45 op=WRITE data=0x06 wfull=0 almost_wfull=0 accepted=1 ts=775.000 ns
+MON: [785 ns] txn #46 op=WRITE data=0x06 wfull=0 almost_wfull=0 accepted=1 ts=785.000 ns
+MON: [790 ns] txn #47 op= READ data=0x0f rempty=0 almost_rempty=0 accepted=1 ts=790.000 ns
+MON: [795 ns] txn #48 op=WRITE data=0x07 wfull=0 almost_wfull=0 accepted=1 ts=795.000 ns
+MON: [805 ns] txn #49 op=WRITE data=0x07 wfull=0 almost_wfull=0 accepted=1 ts=805.000 ns
+MON: [810 ns] txn #50 op= READ data=0x07 rempty=0 almost_rempty=1 accepted=1 ts=810.000 ns
+MON: [830 ns] txn #51 op= READ data=0x04 rempty=0 almost_rempty=0 accepted=1 ts=830.000 ns
+MON: [850 ns] txn #52 op= READ data=0x04 rempty=0 almost_rempty=0 accepted=1 ts=850.000 ns
+MON: [870 ns] txn #53 op= READ data=0x04 rempty=0 almost_rempty=0 accepted=1 ts=870.000 ns
+MON: [890 ns] txn #54 op= READ data=0x05 rempty=0 almost_rempty=0 accepted=1 ts=890.000 ns
+MON: [910 ns] txn #55 op= READ data=0x05 rempty=0 almost_rempty=0 accepted=1 ts=910.000 ns
+MON: [930 ns] txn #56 op= READ data=0x06 rempty=0 almost_rempty=1 accepted=1 ts=930.000 ns
+MON: [950 ns] txn #57 op= READ data=0x06 rempty=0 almost_rempty=0 accepted=1 ts=950.000 ns
+--------------------------------------------------------------
+SCB SUMMARY: writes accepted=29 blocked(full)=1 | reads accepted=27 blocked(empty)=1
+SCB SUMMARY: checks=172 errors=0 entries left in model=2
+SCB RESULT: PASS
+--------------------------------------------------------------
+FIFO TEST COMPLETED
+$finish called from file "../fifo_tb_m.sv", line 392.
+$finish at simulation time 981 ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 981000 ps
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Sat Nov  7 20:44:01 2026
