@@ -1,0 +1,87 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2-3_Full64; Runtime version W-2024.09-SP2-3_Full64;  Nov  9 01:08 2026
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_W-2024.09-SP2-3, Linux x86_64/64bit, 06/23/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin traversing the scope (fifo_tb), layer (0).
+*Verdi* : End of traversing.
+MON: [65 ns] txn #0 (WRITE) generated
+MON: [75 ns] txn #1 (WRITE) generated
+MON: [85 ns] txn #2 (WRITE) generated
+MON: [95 ns] txn #3 (WRITE) generated
+MON: [115 ns] txn #4 (WRITE) generated
+MON: [135 ns] txn #5 (WRITE) generated
+MON: [145 ns] txn #6 (WRITE) generated
+MON: [155 ns] txn #7 (WRITE) generated
+MON: [165 ns] txn #8 (WRITE) generated
+MON: [175 ns] txn #9 (WRITE) generated
+MON: [185 ns] txn #10 (WRITE) generated
+the fifo is not almost full
+MON: [195 ns] txn #11 (WRITE) generated
+the fifo is almost full
+MON: [205 ns] txn #12 (WRITE) generated
+MON: [215 ns] txn #13 (WRITE) generated
+MON: [225 ns] txn #14 (WRITE) generated
+MON: [235 ns] txn #15 (WRITE) generated
+MON: [245 ns] txn #16 (WRITE) generated
+the fifo is full
+MON: [330 ns] txn #17 ( READ) generated
+MON: [350 ns] txn #18 ( READ) generated
+MON: [370 ns] txn #19 ( READ) generated
+MON: [390 ns] txn #20 ( READ) generated
+MON: [410 ns] txn #21 ( READ) generated
+MON: [430 ns] txn #22 ( READ) generated
+MON: [450 ns] txn #23 ( READ) generated
+MON: [470 ns] txn #24 ( READ) generated
+MON: [490 ns] txn #25 ( READ) generated
+MON: [510 ns] txn #26 ( READ) generated
+MON: [530 ns] txn #27 ( READ) generated
+MON: [550 ns] txn #28 ( READ) generated
+MON: [570 ns] txn #29 ( READ) generated
+MON: [590 ns] txn #30 ( READ) generated
+MON: [610 ns] txn #31 ( READ) generated
+MON: [630 ns] txn #32 ( READ) generated
+the fifo is empty
+the fifo is empty
+MON: [685 ns] txn #33 (WRITE) generated
+MON: [695 ns] txn #34 (WRITE) generated
+MON: [705 ns] txn #35 (WRITE) generated
+MON: [715 ns] txn #36 (WRITE) generated
+MON: [725 ns] txn #37 (WRITE) generated
+MON: [730 ns] txn #38 ( READ) generated
+MON: [735 ns] txn #39 (WRITE) generated
+MON: [745 ns] txn #40 (WRITE) generated
+MON: [750 ns] txn #41 ( READ) generated
+MON: [755 ns] txn #42 (WRITE) generated
+MON: [765 ns] txn #43 (WRITE) generated
+MON: [770 ns] txn #44 ( READ) generated
+MON: [775 ns] txn #45 (WRITE) generated
+MON: [785 ns] txn #46 (WRITE) generated
+MON: [790 ns] txn #47 ( READ) generated
+MON: [795 ns] txn #48 (WRITE) generated
+MON: [805 ns] txn #49 (WRITE) generated
+MON: [810 ns] txn #50 ( READ) generated
+MON: [830 ns] txn #51 ( READ) generated
+MON: [850 ns] txn #52 ( READ) generated
+MON: [870 ns] txn #53 ( READ) generated
+MON: [890 ns] txn #54 ( READ) generated
+MON: [910 ns] txn #55 ( READ) generated
+MON: [930 ns] txn #56 ( READ) generated
+MON: [950 ns] txn #57 ( READ) generated
+--------------------------------------------------------------
+SCB SUMMARY: writes accepted=29 blocked(full)=1 | reads accepted=27 blocked(empty)=1
+SCB SUMMARY: checks=172 errors=0 entries left in model=2
+SCB RESULT: PASS
+--------------------------------------------------------------
+FIFO TEST COMPLETED
+$finish called from file "../fifo_tb_m.sv", line 392.
+$finish at simulation time 981 ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 981000 ps
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Mon Nov  9 01:08:28 2026
